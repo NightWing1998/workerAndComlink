@@ -1,8 +1,6 @@
 # WorkerAndComlink
 <p>This is a repo which demonstrates the use of worker threads with comlink in a normal browser window.</p>
-<br />
-<p>It requires one to serve this folder via a static server and that's it and it should allow cross origin requests.</p>
-<br />
+<p>It requires one to serve this folder via a static server and it should allow cross origin requests and that's it.</p>
 <p>
 For initial testing purposes the index.html renders a normal html code with index.js script. 
 This script is responsible for initiating worker threads which will be fectched from the network.

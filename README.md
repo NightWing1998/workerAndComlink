@@ -7,4 +7,7 @@ This script is responsible for initiating worker threads which will be fectched 
 The worker file calculated prime numbers in the prime number function and returns all the prime numbers inside passed array.
 The second function makes a network call from worker thread.
 </p>
+
+Additionally we need a web server to serve our javascript files, to avoid CORS error, an easy way to get a web server running is the [Web Server for Chrome - Extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
+
 For more info refer <a href="https://www.notion.so/nightwing1998/Web-Workers-and-comlink-in-JS-7ee89a912bcb4e90b95094886b802322" target="_blank">https://www.notion.so/nightwing1998/Web-Workers-and-comlink-in-JS-7ee89a912bcb4e90b95094886b802322</a>
